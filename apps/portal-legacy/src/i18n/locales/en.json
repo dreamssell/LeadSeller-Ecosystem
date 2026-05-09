@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "platform": "Platform",
+    "solutions": "Solutions",
+    "enterprise": "Enterprise",
+    "login": "Sign In",
+    "demo": "Book a Demo"
+  },
+  "hero": {
+    "badge": "Autonomous SDR · v4.0",
+    "title_part1": "Excellence is not an act,",
+    "title_accent": "it's an algorithm.",
+    "subtitle": "The first CRM with Autonomous Intelligence for demanding enterprises. Let AI qualify your leads — focus on closing.",
+    "cta_primary": "Book a Demo",
+    "cta_secondary": "See How It Works",
+    "metric1_value": "94.2%",
+    "metric1_label": "Qualification accuracy",
+    "metric2_value": "12x",
+    "metric2_label": "Lead-to-call speed",
+    "metric3_value": "24/7",
+    "metric3_label": "Continuous operation"
+  },
+  "problem": {
+    "kicker": "The Operational Bottleneck",
+    "title": "Why demanding enterprises won't tolerate traditional service",
+    "subtitle": "Every minute of delay is a sale lost to a competitor. Every cold lead reaching a human SDR is wasted time.",
+    "card1_metric": "5min",
+    "card1_title": "Critical window lost",
+    "card1_desc": "After 5 minutes, lead qualification odds drop 80%. Human teams can't respond at that speed.",
+    "card2_metric": "67%",
+    "card2_title": "Unqualified leads",
+    "card2_desc": "Two-thirds of your SDR's time is wasted on leads that will never close. That's burned revenue.",
+    "card3_metric": "$480K",
+    "card3_title": "Revenue evaporated/year",
+    "card3_desc": "What a typical enterprise loses to slow response and poor manual triage."
+  },
+  "ecosystem": {
+    "kicker": "The Ecosystem",
+    "title": "Three autonomous engines. One platform.",
+    "subtitle": "SDR, Help Desk and Voice. Intelligence synchronized from first touch to close.",
+    "sdr_kicker": "01 · Omnichannel SDR",
+    "sdr_title": "Real-time triage, every channel",
+    "sdr_desc": "WhatsApp, Instagram, LinkedIn and Web Widget. AI qualifies, categorizes and routes in seconds — before your competitor even sees the notification.",
+    "sdr_b1": "< 1.4s response on any channel",
+    "sdr_b2": "Automatic semantic categorization",
+    "sdr_b3": "Smart human handoff at the right moment",
+    "help_kicker": "02 · Help Desk AI",
+    "help_title": "Autonomous Tier-1 resolution",
+    "help_desc": "AI resolves recurring tickets on its own and surgically triages complex cases. Your team focuses on what requires human expertise.",
+    "help_b1": "Up to 78% autonomous ticket resolution",
+    "help_b2": "Triage by urgency, sentiment and SLA",
+    "help_b3": "Self-learning knowledge base",
+    "voice_kicker": "03 · Voice Intelligence (VOIP)",
+    "voice_title": "Native SIP, intelligent routing",
+    "voice_desc": "Telephony integrated into the CRM with SIP technology. Every call transcribed, analyzed and routed to the right agent at the right time.",
+    "voice_b1": "Real-time transcription with sentiment analysis",
+    "voice_b2": "Intent-based intelligent routing",
+    "voice_b3": "Recordings stored in your Google Drive"
+  },
+  "funnel": {
+    "kicker": "How It Works",
+    "title": "The Smart Funnel in action",
+    "subtitle": "Volume in. Intelligence filters. Value out. Three layers, one operational symphony.",
+    "step1_label": "Capture",
+    "step1_title": "Raw volume",
+    "step1_desc": "Every channel pouring in leads in real time. The more the better — AI handles it.",
+    "step2_label": "AI Triage",
+    "step2_title": "Neural filtering",
+    "step2_desc": "Qualification algorithms separate gold from noise. Cold leads get nurtured, hot leads go straight to the team.",
+    "step3_label": "Human Handoff",
+    "step3_title": "Refined value",
+    "step3_desc": "Only conversation-ready leads reach human SDRs. Total focus on closing."
+  },
+  "advantages": {
+    "kicker": "The Enterprise Edge",
+    "title": "Built for those who can't afford to fail",
+    "subtitle": "Data sovereignty, bank-grade security and native integrations. Everything your IT team needs to approve.",
+    "drive_title": "Native Google Drive",
+    "drive_desc": "Call recordings and WhatsApp histories are stored directly in your company's Google Drive. Total data sovereignty — never on our servers.",
+    "security_title": "AES-256 security",
+    "security_desc": "End-to-end encryption, corporate SSO (SAML/OIDC) and full LGPD/GDPR compliance. SOC 2 Type II audit in progress.",
+    "ecosystem_title": "Open ecosystem",
+    "ecosystem_desc": "Native APIs for SAP, Oracle, Salesforce, HubSpot and the world's leading ERPs. Integration in days, not months."
+  },
+  "cta": {
+    "title": "Ready to scale your excellence?",
+    "subtitle": "Stop losing sales to slow service. See AI running your funnel in a 30-minute demo.",
+    "button": "Book a Demo Now"
+  },
+  "footer": {
+    "tagline": "Autonomous intelligence for sales with excellence.",
+    "rights": "© 2025 Lead Seller. All rights reserved.",
+    "privacy": "Privacy",
+    "cookie_preferences": "Cookie preferences",
+    "contact": "Contact"
+  },
+  "modal": {
+    "title": "Book a Demo",
+    "subtitle": "See Lead Seller operating in 30 minutes. Business hours · Brasília (BRT).",
+    "name_label": "Full name",
+    "name_placeholder": "Jane Smith",
+    "email_label": "Corporate email",
+    "email_placeholder": "jane@company.com",
+    "company_label": "Company",
+    "company_placeholder": "Your company",
+    "phone_label": "Phone (WhatsApp)",
+    "phone_placeholder": "+55 11 99999-9999",
+    "validation_phone": "Invalid phone number",
+    "date_label": "Preferred date",
+    "date_placeholder": "Pick a date",
+    "time_label": "Time (BRT)",
+    "time_placeholder": "Pick a time",
+    "submit": "Confirm Booking",
+    "submitting": "Sending...",
+    "success_title": "Demo booked! 🎉",
+    "success_desc": "Our team will confirm by email shortly.",
+    "error_title": "Couldn't send",
+    "error_desc": "We couldn't reach our API Gateway right now. Please try again in a moment or email contato@leadseller.com.br.",
+    "validation_required": "Required field",
+    "validation_email": "Invalid email"
+  },
+  "lang": { "pt": "PT", "en": "EN" },
+  "cookies": {
+    "kicker": "GDPR · Privacy",
+    "title": "Your privacy comes first",
+    "description": "We use essential cookies to operate the site, and analytics/marketing cookies to improve your experience. You decide. Read more in our",
+    "policy_link": "Privacy Policy",
+    "accept_all": "Accept all",
+    "essential_only": "Essentials only",
+    "preferences": "Customize",
+    "close": "Close"
+  },
+  "preferences": {
+    "kicker": "GDPR · Preferences",
+    "title": "Cookie preferences",
+    "subtitle": "Control which cookie categories you allow. You can change these choices at any time.",
+    "always_on": "Always on",
+    "essential_title": "Essential",
+    "essential_desc": "Required for the site to function (session, language, security). Cannot be disabled.",
+    "analytics_title": "Analytics",
+    "analytics_desc": "Anonymous usage metrics so we can understand which content matters most (Plausible, no cross-site tracking cookies).",
+    "marketing_title": "Marketing",
+    "marketing_desc": "Help us measure campaigns and surface relevant institutional content on other channels. We never sell your data.",
+    "save": "Save preferences",
+    "accept_all": "Accept all",
+    "reject_all": "Reject non-essentials"
+  },
+  "privacy": {
+    "meta_title": "Privacy Policy — Lead Seller",
+    "meta_description": "Lead Seller Privacy Policy and GDPR/LGPD information: how we collect, use and protect your personal data.",
+    "kicker": "GDPR · LGPD compliance",
+    "title": "Privacy Policy",
+    "intro": "Lead Seller takes the protection of your personal data seriously. This Policy explains, in plain language, how we handle your information in compliance with Brazil's LGPD (Law 13.709/2018) and GDPR principles.",
+    "last_updated": "Last updated",
+    "last_updated_date": "April 19, 2026",
+    "back": "Back",
+    "manage_preferences": "Manage cookie preferences",
+    "sections": [
+      {
+        "title": "Who we are",
+        "body": "Lead Seller Tecnologia Ltda., headquartered in Brazil, is the controller of personal data collected through leadseller.com.br and associated services (CRM, autonomous SDR, Help Desk AI and Voice Intelligence)."
+      },
+      {
+        "title": "Data we collect",
+        "body": "We collect: (a) data you provide — name, corporate email, company, preferred demo date and time; (b) automatic technical data — IP address, user agent, language, pages visited, timestamps; (c) communication data — messages exchanged via forms or email."
+      },
+      {
+        "title": "Legal bases and purposes",
+        "body": "We process data under: pre-contractual procedures (LGPD art. 7-V — demo booking), legitimate interest (art. 7-IX — security and fraud prevention), and consent (art. 7-I — analytics and marketing). Purposes include responding to inquiries, scheduling demos, improving the product, and meeting legal obligations."
+      },
+      {
+        "title": "Sharing",
+        "body": "We share data only with strictly necessary processors: cloud infrastructure providers (under data-protection clauses), email gateways and analytics tools — all bound by contractual confidentiality. We never sell your personal data."
+      },
+      {
+        "title": "Data sovereignty (Google Drive)",
+        "body": "For CRM customers, call recordings and WhatsApp histories are stored directly in your company's own Google Drive. Lead Seller does not retain copies on its servers — full customer sovereignty."
+      },
+      {
+        "title": "Retention",
+        "body": "We keep lead data for up to 24 months after the last contact. Technical logs are kept for 12 months. After these periods, data is anonymized or deleted unless legal retention obligations apply."
+      },
+      {
+        "title": "Your rights as a data subject",
+        "body": "You have the right to: confirm processing; access your data; correct it; request anonymization, blocking or deletion; portability; information about sharing; withdraw consent; and object to processing. To exercise any right, contact our DPO."
+      },
+      {
+        "title": "Security",
+        "body": "We apply AES-256 encryption at rest and TLS 1.3 in transit, role-based access controls (RBAC), multi-factor authentication and continuous auditing. SOC 2 Type II certification is in progress."
+      },
+      {
+        "title": "International transfers",
+        "body": "Some processors may handle data outside Brazil (e.g., cloud providers). In such cases, we ensure standard contractual clauses and adequacy under LGPD art. 33."
+      },
+      {
+        "title": "Changes to this Policy",
+        "body": "We may update this Policy periodically. Material changes will be communicated by email to active customers and highlighted at the top of this page."
+      }
+    ],
+    "cookie_table": {
+      "title": "Cookies we use",
+      "intro": "We use cookies across three categories. You can adjust your choices anytime via \"Cookie preferences\" in the footer.",
+      "col_category": "Category",
+      "col_purpose": "Purpose",
+      "col_retention": "Retention",
+      "col_required": "Required",
+      "rows": [
+        { "category": "Essential", "purpose": "Session, chosen language, LGPD consent record.", "retention": "Session / 12 months", "required": "Yes" },
+        { "category": "Analytics", "purpose": "Aggregated, anonymous usage metrics via Plausible (no cross-site tracking).", "retention": "30 days", "required": "No" },
+        { "category": "Marketing", "purpose": "Campaign measurement and controlled remarketing for institutional content.", "retention": "180 days", "required": "No" }
+      ]
+    },
+    "dpo": {
+      "title": "Data Protection Officer (DPO)",
+      "intro": "To exercise your rights as a data subject or ask any privacy question, contact our Data Protection Officer:",
+      "name_label": "Name",
+      "name": "Data Protection Officer — Lead Seller",
+      "email_label": "Email",
+      "email": "dpo@leadseller.com.br",
+      "address_label": "Mailing address",
+      "address": "To be defined — headquarters address will be published in the next update of this Policy."
+    }
+  }
+}

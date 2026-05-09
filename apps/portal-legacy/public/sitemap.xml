@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://leadseller.com.br/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://leadseller.com.br/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://leadseller.com.br/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leadseller.com.br/" />
+  </url>
+  <url>
+    <loc>https://leadseller.com.br/privacidade</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://leadseller.com.br/privacidade" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://leadseller.com.br/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leadseller.com.br/privacidade" />
+  </url>
+  <url>
+    <loc>https://leadseller.com.br/privacy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://leadseller.com.br/privacidade" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://leadseller.com.br/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leadseller.com.br/privacidade" />
+  </url>
+</urlset>

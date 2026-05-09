@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "platform": "Plataforma",
+    "solutions": "Soluções",
+    "enterprise": "Enterprise",
+    "login": "Fazer Login",
+    "demo": "Agendar Demo"
+  },
+  "hero": {
+    "badge": "SDR Autônomo · v4.0",
+    "title_part1": "A Excelência não é um ato,",
+    "title_accent": "é um algoritmo.",
+    "subtitle": "O primeiro CRM com Inteligência Autônoma para empresas exigentes. Deixe a IA qualificar seus leads e foque apenas no fechamento.",
+    "cta_primary": "Agendar Demo",
+    "cta_secondary": "Ver Como Funciona",
+    "metric1_value": "94.2%",
+    "metric1_label": "Precisão de qualificação",
+    "metric2_value": "12x",
+    "metric2_label": "Velocidade lead-to-call",
+    "metric3_value": "24/7",
+    "metric3_label": "Operação contínua"
+  },
+  "problem": {
+    "kicker": "O Gargalo Operacional",
+    "title": "Por que empresas exigentes não toleram o atendimento tradicional",
+    "subtitle": "Cada minuto de demora é uma venda que vai para o concorrente. Cada lead frio que chega ao SDR humano é tempo desperdiçado.",
+    "card1_metric": "5min",
+    "card1_title": "Janela crítica perdida",
+    "card1_desc": "Após 5 minutos, a chance de qualificar um lead cai 80%. Times humanos não respondem nessa velocidade.",
+    "card2_metric": "67%",
+    "card2_title": "Leads desqualificados",
+    "card2_desc": "Dois terços do tempo do seu SDR é gasto com leads que nunca fecharão. Isso é receita queimada.",
+    "card3_metric": "R$ 2.4M",
+    "card3_title": "Receita evaporada/ano",
+    "card3_desc": "É o que uma operação enterprise média perde por resposta lenta e triagem manual deficiente."
+  },
+  "ecosystem": {
+    "kicker": "O Ecossistema",
+    "title": "Três motores autônomos. Uma única plataforma.",
+    "subtitle": "SDR, Help Desk e Voz. Inteligência sincronizada do primeiro contato ao fechamento.",
+    "sdr_kicker": "01 · SDR Omnichannel",
+    "sdr_title": "Triagem em tempo real, em todos os canais",
+    "sdr_desc": "WhatsApp, Instagram, LinkedIn e Web Widget. A IA qualifica, categoriza e roteia em segundos — antes que seu concorrente sequer veja a notificação.",
+    "sdr_b1": "Resposta em < 1.4s em qualquer canal",
+    "sdr_b2": "Categorização semântica automática",
+    "sdr_b3": "Handoff inteligente para humano no momento certo",
+    "help_kicker": "02 · Help Desk AI",
+    "help_title": "Resolução autônoma de Nível 1",
+    "help_desc": "A IA resolve sozinha tickets recorrentes e faz triagem cirúrgica de casos complexos. Seu time foca apenas no que exige expertise humana.",
+    "help_b1": "Resolução autônoma de até 78% dos tickets",
+    "help_b2": "Triagem por urgência, sentimento e SLA",
+    "help_b3": "Base de conhecimento que aprende sozinha",
+    "voice_kicker": "03 · Voice Intelligence (VOIP)",
+    "voice_title": "SIP nativo, roteamento inteligente",
+    "voice_desc": "Telefonia integrada ao CRM com tecnologia SIP. Cada chamada é transcrita, analisada e roteada para o agente certo, no momento certo.",
+    "voice_b1": "Transcrição em tempo real com análise de sentimento",
+    "voice_b2": "Roteamento inteligente baseado em intenção",
+    "voice_b3": "Gravações armazenadas no seu Google Drive"
+  },
+  "funnel": {
+    "kicker": "Como Funciona",
+    "title": "O Funil Inteligente em ação",
+    "subtitle": "Volume entra. Inteligência filtra. Valor sai. Três camadas, uma sinfonia operacional.",
+    "step1_label": "Captura",
+    "step1_title": "Volume bruto",
+    "step1_desc": "Todos os canais despejando leads em tempo real. Quanto mais, melhor — a IA dá conta.",
+    "step2_label": "Triagem IA",
+    "step2_title": "Filtragem neural",
+    "step2_desc": "Algoritmos de qualificação separam ouro de ruído. Cold leads recebem nutrição, hot leads vão direto ao time.",
+    "step3_label": "Handoff Humano",
+    "step3_title": "Valor refinado",
+    "step3_desc": "Apenas leads prontos para conversa chegam ao SDR humano. Foco total no fechamento."
+  },
+  "advantages": {
+    "kicker": "A Vantagem Enterprise",
+    "title": "Construído para quem não pode falhar",
+    "subtitle": "Soberania de dados, segurança bancária e integrações nativas. Tudo que sua TI exige antes de aprovar.",
+    "drive_title": "Google Drive nativo",
+    "drive_desc": "Gravações de chamadas e históricos de WhatsApp são armazenados diretamente no Google Drive da sua empresa. Soberania total dos seus dados — nunca nos nossos servidores.",
+    "security_title": "Segurança AES-256",
+    "security_desc": "Criptografia de ponta a ponta, SSO corporativo (SAML/OIDC) e conformidade total com a LGPD. Auditoria SOC 2 Type II em andamento.",
+    "ecosystem_title": "Ecossistema aberto",
+    "ecosystem_desc": "APIs nativas para SAP, Oracle, TOTVS, Salesforce e os principais ERPs do mercado brasileiro. Integração em dias, não meses."
+  },
+  "cta": {
+    "title": "Pronto para escalar sua excelência?",
+    "subtitle": "Pare de perder vendas por atendimento lento. Veja a IA operando seu funil em uma demo de 30 minutos.",
+    "button": "Agendar Demo Agora"
+  },
+  "footer": {
+    "tagline": "Inteligência autônoma para vendas com excelência.",
+    "rights": "© 2025 Lead Seller. Todos os direitos reservados.",
+    "privacy": "Privacidade",
+    "cookie_preferences": "Preferências de cookies",
+    "contact": "Contato"
+  },
+  "modal": {
+    "title": "Agendar uma Demo",
+    "subtitle": "Veja o Lead Seller operando em 30 minutos. Horário comercial · Brasília (BRT).",
+    "name_label": "Nome completo",
+    "name_placeholder": "Maria Silva",
+    "email_label": "E-mail corporativo",
+    "email_placeholder": "maria@empresa.com.br",
+    "company_label": "Empresa",
+    "company_placeholder": "Sua empresa",
+    "phone_label": "Telefone (WhatsApp)",
+    "phone_placeholder": "(11) 99999-9999",
+    "validation_phone": "Telefone inválido",
+    "date_label": "Data preferida",
+    "date_placeholder": "Selecione a data",
+    "time_label": "Horário (BRT)",
+    "time_placeholder": "Selecione o horário",
+    "submit": "Confirmar Agendamento",
+    "submitting": "Enviando...",
+    "success_title": "Demo agendada! 🎉",
+    "success_desc": "Nosso time confirmará por e-mail em instantes.",
+    "error_title": "Não foi possível enviar",
+    "error_desc": "Não conseguimos contatar nossa Central de APIs agora. Por favor, tente novamente em instantes ou escreva para contato@leadseller.com.br.",
+    "validation_required": "Campo obrigatório",
+    "validation_email": "E-mail inválido"
+  },
+  "lang": { "pt": "PT", "en": "EN" },
+  "cookies": {
+    "kicker": "LGPD · Privacidade",
+    "title": "Sua privacidade é prioridade",
+    "description": "Usamos cookies essenciais para operação e cookies analíticos/marketing para melhorar sua experiência. Você decide. Saiba mais em nossa",
+    "policy_link": "Política de Privacidade",
+    "accept_all": "Aceitar todos",
+    "essential_only": "Apenas essenciais",
+    "preferences": "Personalizar",
+    "close": "Fechar"
+  },
+  "preferences": {
+    "kicker": "LGPD · Preferências",
+    "title": "Preferências de cookies",
+    "subtitle": "Controle quais categorias de cookies você permite. Você pode alterar essas escolhas a qualquer momento.",
+    "always_on": "Sempre ativo",
+    "essential_title": "Essenciais",
+    "essential_desc": "Necessários para o funcionamento do site (sessão, idioma, segurança). Não podem ser desativados.",
+    "analytics_title": "Analytics",
+    "analytics_desc": "Métricas anônimas de uso para entendermos quais conteúdos são mais relevantes (Plausible, sem cookies de rastreamento entre sites).",
+    "marketing_title": "Marketing",
+    "marketing_desc": "Permitem mensurar campanhas e exibir conteúdo institucional relevante em outros canais. Nunca vendemos seus dados.",
+    "save": "Salvar preferências",
+    "accept_all": "Aceitar todos",
+    "reject_all": "Recusar não-essenciais"
+  },
+  "privacy": {
+    "meta_title": "Política de Privacidade — Lead Seller",
+    "meta_description": "Política de Privacidade e LGPD do Lead Seller: como coletamos, usamos e protegemos seus dados pessoais.",
+    "kicker": "LGPD · Lei Geral de Proteção de Dados",
+    "title": "Política de Privacidade",
+    "intro": "A Lead Seller leva a sério a proteção dos seus dados pessoais. Esta Política descreve, em linguagem clara, como tratamos suas informações em conformidade com a Lei nº 13.709/2018 (LGPD).",
+    "last_updated": "Última atualização",
+    "last_updated_date": "19 de abril de 2026",
+    "back": "Voltar",
+    "manage_preferences": "Gerenciar preferências de cookies",
+    "sections": [
+      {
+        "title": "Quem somos",
+        "body": "Lead Seller Tecnologia Ltda., inscrita sob CNPJ a ser informado, com sede no Brasil, é a controladora dos dados pessoais coletados através do site leadseller.com.br e dos serviços associados (CRM, SDR autônomo, Help Desk AI e Voice Intelligence)."
+      },
+      {
+        "title": "Quais dados coletamos",
+        "body": "Coletamos: (a) dados que você nos fornece — nome, e-mail corporativo, empresa, data e horário preferidos para demonstração; (b) dados técnicos automáticos — endereço IP, user-agent, idioma, páginas visitadas e horário de acesso; (c) dados de comunicação — mensagens trocadas via formulários ou e-mail."
+      },
+      {
+        "title": "Bases legais e finalidades",
+        "body": "Tratamos seus dados com base em: execução de procedimentos preliminares a contrato (art. 7º, V — agendamento de demonstração), legítimo interesse (art. 7º, IX — segurança e prevenção a fraude) e consentimento (art. 7º, I — analytics e marketing). As finalidades incluem responder solicitações, agendar demonstrações, melhorar o produto e cumprir obrigações legais."
+      },
+      {
+        "title": "Compartilhamento",
+        "body": "Compartilhamos dados apenas com operadores estritamente necessários: provedores de infraestrutura em nuvem (com cláusulas de proteção de dados), gateways de e-mail e ferramentas de analytics — todos sob acordos contratuais de confidencialidade. Nunca vendemos seus dados pessoais."
+      },
+      {
+        "title": "Soberania de dados (Google Drive)",
+        "body": "Para clientes do CRM, gravações de chamadas e históricos de WhatsApp ficam armazenados diretamente no Google Drive da sua empresa. A Lead Seller não retém cópias desses arquivos em seus servidores — soberania total do cliente."
+      },
+      {
+        "title": "Retenção",
+        "body": "Mantemos dados de leads por até 24 meses após o último contato. Logs técnicos são retidos por 12 meses. Após esses prazos, os dados são anonimizados ou eliminados, salvo obrigação legal de guarda superior."
+      },
+      {
+        "title": "Seus direitos como titular",
+        "body": "Você tem o direito de: confirmar a existência de tratamento; acessar seus dados; corrigi-los; solicitar anonimização, bloqueio ou eliminação; portabilidade; informação sobre compartilhamentos; revogação do consentimento; e oposição ao tratamento. Para exercer qualquer direito, contate nosso DPO."
+      },
+      {
+        "title": "Segurança",
+        "body": "Aplicamos criptografia AES-256 em repouso e TLS 1.3 em trânsito, controles de acesso baseados em papéis (RBAC), autenticação multifator e auditoria contínua. Estamos em processo de certificação SOC 2 Type II."
+      },
+      {
+        "title": "Transferência internacional",
+        "body": "Alguns operadores podem processar dados fora do Brasil (ex.: provedores de cloud). Nesses casos, garantimos cláusulas contratuais padrão e adequação conforme art. 33 da LGPD."
+      },
+      {
+        "title": "Alterações desta Política",
+        "body": "Podemos atualizar esta Política periodicamente. Mudanças materiais serão comunicadas por e-mail aos clientes ativos e destacadas no topo da página."
+      }
+    ],
+    "cookie_table": {
+      "title": "Cookies utilizados",
+      "intro": "Usamos cookies em três categorias. Você pode ajustar suas escolhas a qualquer momento clicando em \"Preferências de cookies\" no rodapé.",
+      "col_category": "Categoria",
+      "col_purpose": "Finalidade",
+      "col_retention": "Retenção",
+      "col_required": "Obrigatório",
+      "rows": [
+        { "category": "Essenciais", "purpose": "Sessão, idioma escolhido, registro de consentimento LGPD.", "retention": "Sessão / 12 meses", "required": "Sim" },
+        { "category": "Analytics", "purpose": "Métricas agregadas e anônimas via Plausible (sem rastreamento entre sites).", "retention": "30 dias", "required": "Não" },
+        { "category": "Marketing", "purpose": "Mensuração de campanhas institucionais e remarketing controlado.", "retention": "180 dias", "required": "Não" }
+      ]
+    },
+    "dpo": {
+      "title": "Encarregado de Dados (DPO)",
+      "intro": "Para exercer seus direitos como titular ou tirar dúvidas sobre privacidade, fale com nosso Encarregado de Proteção de Dados:",
+      "name_label": "Nome",
+      "name": "Encarregado de Proteção de Dados — Lead Seller",
+      "email_label": "E-mail",
+      "email": "dpo@leadseller.com.br",
+      "address_label": "Endereço para correspondência",
+      "address": "A definir — endereço da sede será publicado na próxima atualização desta Política."
+    }
+  }
+}
