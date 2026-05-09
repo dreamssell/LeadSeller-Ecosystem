@@ -105,12 +105,25 @@ export default function PipelinePage() {
                             </button>
                           </DropdownMenuTrigger>
                           <DropdownMenuContent align="end" className="w-48">
-                            <DropdownMenuItem onClick={() => {
-                              toast({ 
-                                title: 'Acesso Solicitado', 
-                                description: 'Nossa API criará a senha e enviará via WhatsApp em breve.',
-                              });
-                              // TODO: Implementar chamada à Edge Function de criação de usuário do Portal
+                            <DropdownMenuItem onClick={async () => {
+                              toast({ title: 'Gerando acesso...', description: 'Aguarde um instante.' });
+                              try {
+                                const res = await fetch('http://localhost:3000/portal/generate-access', {
+                                  method: 'POST',
+                                  headers: { 'Content-Type': 'application/json' },
+                                  body: JSON.stringify({ leadId: card.id })
+                                });
+                                const data = await res.json();
+                                if (!res.ok) throw new Error(data.message || 'Erro desconhecido');
+                                
+                                toast({ 
+                                  title: 'Acesso Gerado!', 
+                                  description: `E-mail: ${data.email}\nSenha: ${data.tempPassword}`,
+                                  duration: 15000, // Tempo maior para o usuário copiar
+                                });
+                              } catch (err: any) {
+                                toast({ title: 'Falha ao gerar', description: err.message, variant: 'destructive' });
+                              }
                             }}>
                               <Key className="w-4 h-4 mr-2" />
                               Gerar Acesso ao Portal

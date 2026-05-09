@@ -70,9 +70,16 @@ const Index = () => {
         const data = await authenticate(email, password);
         const token = data.session?.access_token || data.token;
         if (!token) throw new Error('Senha incorreta.');
-        const redirect = data.redirectUrl && data.redirectUrl.startsWith('http') 
+        
+        let redirect = data.redirectUrl && data.redirectUrl.startsWith('http') 
           ? data.redirectUrl 
-          : 'https://acesso.leadseller.com.br';
+          : 'https://hub.leadseller.com.br/auth/callback';
+
+        // Se estiver rodando localmente (localhost), redirecionar para o Portal do Cliente (5175)
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+          redirect = redirect.replace('https://hub.leadseller.com.br', 'http://localhost:5175');
+        }
+
         window.location.href = redirect;
       } catch (err: any) {
         setError(err?.message || 'Falha na autenticação.');
