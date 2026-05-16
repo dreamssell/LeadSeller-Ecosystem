@@ -75,9 +75,9 @@ const Index = () => {
           ? data.redirectUrl 
           : 'https://hub.leadseller.com.br/auth/callback';
 
-        // Se estiver rodando localmente (localhost), redirecionar para o Portal do Cliente (5175)
+        // Se estiver rodando localmente (localhost), redirecionar para o Hub (5174)
         if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-          redirect = redirect.replace('https://hub.leadseller.com.br', 'http://localhost:5175');
+          redirect = redirect.replace('https://hub.leadseller.com.br', 'http://localhost:5174');
         }
 
         window.location.href = redirect;
