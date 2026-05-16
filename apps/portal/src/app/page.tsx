@@ -26,8 +26,8 @@ export default function Home() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 pt-8">
-          <Link href="https://hub.leadseller.com.br" className="group relative inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white transition-all duration-200 bg-primary-600 border border-transparent rounded-full hover:bg-primary-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600 shadow-[0_0_40px_-10px_rgba(124,58,237,0.5)]">
-            Acessar o Hub
+          <Link href="http://localhost:5173" className="group relative inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white transition-all duration-200 bg-primary-600 border border-transparent rounded-full hover:bg-primary-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600 shadow-[0_0_40px_-10px_rgba(124,58,237,0.5)]">
+            Acessar Conta
             <svg className="w-5 h-5 ml-2 -mr-1 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
           </Link>
           <Link href="#features" className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-gray-300 transition-all duration-200 glass rounded-full hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-600">

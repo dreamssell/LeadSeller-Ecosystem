@@ -30,6 +30,7 @@
     "@nestjs/platform-express": "^10.0.0",
     "@supabase/supabase-js": "^2.105.4",
     "dotenv": "^17.4.2",
+    "google-auth-library": "^10.6.2",
     "googleapis": "^171.4.0",
     "langchain": "^1.4.0",
     "pdf-parse": "^2.4.5",
