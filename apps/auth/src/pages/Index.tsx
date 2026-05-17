@@ -73,9 +73,17 @@ const Index = () => {
         
         let redirect = `https://hub.leadseller.com.br/auth/callback?access_token=${data.session?.access_token || data.token}&refresh_token=${data.session?.refresh_token || ''}`;
 
+        // Redirect dev user to API environment instead of Hub
+        if (email === 'dev@leadsseller.com' || email === 'dev@leadseller.com.br') {
+          redirect = `https://api.leadseller.com.br/?access_token=${data.session?.access_token || data.token}&refresh_token=${data.session?.refresh_token || ''}`;
+        }
+
         // Se estiver rodando localmente (localhost), redirecionar para o Hub (5174)
         if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
           redirect = `http://localhost:5174/auth/callback?access_token=${data.session?.access_token || data.token}&refresh_token=${data.session?.refresh_token || ''}`;
+          if (email === 'dev@leadsseller.com' || email === 'dev@leadseller.com.br') {
+            redirect = `http://localhost:3000/?access_token=${data.session?.access_token || data.token}&refresh_token=${data.session?.refresh_token || ''}`;
+          }
         }
 
         window.location.href = redirect;
