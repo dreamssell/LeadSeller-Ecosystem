@@ -15,7 +15,7 @@
   },
   "packageManager": "pnpm@9.15.4",
   "engines": {
-    "node": "20.x"
+    "node": ">=20.0.0"
   },
   "dependencies": {
     "@tanstack/query-core": "^5.100.9",
