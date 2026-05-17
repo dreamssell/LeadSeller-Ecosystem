@@ -71,13 +71,11 @@ const Index = () => {
         const token = data.session?.access_token || data.token;
         if (!token) throw new Error('Senha incorreta.');
         
-        let redirect = data.redirectUrl && data.redirectUrl.startsWith('http') 
-          ? data.redirectUrl 
-          : 'https://hub.leadseller.com.br/auth/callback';
+        let redirect = 'https://hub.leadseller.com.br/auth/callback';
 
         // Se estiver rodando localmente (localhost), redirecionar para o Hub (5174)
         if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-          redirect = redirect.replace('https://hub.leadseller.com.br', 'http://localhost:5174');
+          redirect = 'http://localhost:5174/auth/callback';
         }
 
         window.location.href = redirect;
