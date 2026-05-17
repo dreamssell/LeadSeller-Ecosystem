@@ -1,0 +1,4 @@
+project_id = "ftmsqxhieczdvftvhpqk"
+
+[functions.lead-proxy]
+verify_jwt = false

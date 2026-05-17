@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Lead Seller Design System — Enterprise SaaS
+   All colors HSL. Brand:
+   Navy #1A2B4C, AI Cyan #00BFA5, Conversion Lime #A4C639, Surface #F8FAFC
+*/
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;            /* #F8FAFC surface */
+    --foreground: 218 49% 20%;            /* navy text */
+
+    --card: 0 0% 100%;
+    --card-foreground: 218 49% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 218 49% 20%;
+
+    /* Brand */
+    --navy: 218 49% 20%;                  /* #1A2B4C */
+    --navy-foreground: 210 40% 98%;
+    --cyan: 172 100% 37%;                 /* #00BFA5 AI */
+    --cyan-foreground: 218 49% 20%;
+    --lime: 75 55% 50%;                   /* #A4C639 conversion */
+    --lime-foreground: 218 49% 20%;
+    --surface: 210 40% 98%;
+
+    --primary: 218 49% 20%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 218 49% 20%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 218 20% 45%;
+
+    --accent: 172 100% 37%;
+    --accent-foreground: 218 49% 20%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 218 30% 90%;
+    --input: 218 30% 90%;
+    --ring: 172 100% 37%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-cyan-glow: radial-gradient(circle at center, hsl(var(--cyan) / 0.18), transparent 70%);
+    --gradient-lime-glow: radial-gradient(circle at center, hsl(var(--lime) / 0.18), transparent 70%);
+    --gradient-hero: linear-gradient(135deg, hsl(var(--surface)) 0%, hsl(218 40% 96%) 100%);
+
+    /* Shadows */
+    --shadow-glass: 0 8px 32px 0 hsl(var(--navy) / 0.08);
+    --shadow-lime: 0 8px 30px -4px hsl(var(--lime) / 0.45);
+    --shadow-cyan: 0 0 24px -2px hsl(var(--cyan) / 0.5);
+    --shadow-navy-soft: 0 12px 40px -12px hsl(var(--navy) / 0.25);
+
+    /* Motion */
+    --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+  ::selection { background: hsl(var(--cyan) / 0.3); color: hsl(var(--navy)); }
+}
+
+@layer components {
+  .glass-panel {
+    backdrop-filter: blur(12px);
+    background: linear-gradient(135deg, hsl(0 0% 100% / 0.6), hsl(0 0% 100% / 0.2));
+    border: 1px solid hsl(var(--navy) / 0.08);
+    box-shadow: var(--shadow-glass);
+  }
+  .glass-panel-dark {
+    backdrop-filter: blur(14px);
+    background: linear-gradient(135deg, hsl(var(--navy) / 0.6), hsl(var(--navy) / 0.3));
+    border: 1px solid hsl(0 0% 100% / 0.08);
+  }
+  .text-glow-cyan { filter: drop-shadow(0 0 18px hsl(var(--cyan) / 0.35)); }
+}
+
+@layer utilities {
+  .bg-grid-navy {
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, hsl(var(--navy) / 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(var(--navy) / 0.04) 1px, transparent 1px);
+  }
+}
+
+@keyframes flow-particle {
+  0% { transform: translateY(-20px) translateX(0); opacity: 0; }
+  20% { opacity: 0.9; }
+  80% { opacity: 0.9; }
+  100% { transform: translateY(220px) translateX(20px); opacity: 0; }
+}
+.animate-flow { animation: flow-particle 4s linear infinite; }
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.08); }
+}
+.animate-pulse-soft { animation: pulse-soft 2.4s ease-in-out infinite; }

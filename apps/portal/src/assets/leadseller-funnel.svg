@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" fill="none" aria-label="Lead Seller funnel logo">
+  <defs>
+    <linearGradient id="ls-funnel-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2BB7C7"/>
+      <stop offset="55%" stop-color="#1E5BB8"/>
+      <stop offset="100%" stop-color="#1A2B4C"/>
+    </linearGradient>
+    <linearGradient id="ls-funnel-rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3FD0DE"/>
+      <stop offset="100%" stop-color="#2BB7C7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top rim / liquid surface -->
+  <ellipse cx="70" cy="55" rx="55" ry="13" fill="url(#ls-funnel-rim)"/>
+  <ellipse cx="70" cy="53" rx="55" ry="13" fill="#FFFFFF" opacity="0.18"/>
+
+  <!-- People silhouettes (leads being captured) -->
+  <circle cx="50" cy="38" r="9" fill="#3FD0DE"/>
+  <circle cx="70" cy="32" r="10" fill="#3FD0DE"/>
+  <circle cx="90" cy="38" r="9" fill="#3FD0DE"/>
+  <path d="M36 54c2-9 10-14 14-14s12 5 14 14z" fill="#3FD0DE"/>
+  <path d="M56 54c2-10 10-16 14-16s12 6 14 16z" fill="#3FD0DE"/>
+  <path d="M76 54c2-9 10-14 14-14s12 5 14 14z" fill="#3FD0DE"/>
+
+  <!-- Funnel body: stacked stripes tapering down -->
+  <!-- Stripe 1 (cyan band) -->
+  <path d="M15 55 L125 55 L118 70 L22 70 Z" fill="#FFFFFF"/>
+  <path d="M22 70 L118 70 L112 84 L28 84 Z" fill="url(#ls-funnel-body)"/>
+  <!-- white separator -->
+  <path d="M28 84 L112 84 L109 90 L31 90 Z" fill="#FFFFFF"/>
+  <!-- mid blue band -->
+  <path d="M31 90 L109 90 L100 110 L40 110 Z" fill="#1E5BB8"/>
+  <path d="M40 110 L100 110 L97 116 L43 116 Z" fill="#FFFFFF"/>
+  <!-- darker navy band -->
+  <path d="M43 116 L97 116 L88 138 L52 138 Z" fill="#1A2B4C"/>
+  <path d="M52 138 L88 138 L85 144 L55 144 Z" fill="#FFFFFF"/>
+  <!-- bottom stem -->
+  <path d="M55 144 L85 144 L78 168 L62 168 Z" fill="#1A2B4C"/>
+  <path d="M62 168 L78 168 L75 182 L65 182 Z" fill="#1E5BB8"/>
+
+  <!-- Lime drop (refined, qualified lead) -->
+  <path d="M65 182 L75 182 C 78 195 70 202 70 202 C 70 202 62 195 65 182 Z" fill="#A4C639"/>
+
+  <!-- Wordmark -->
+  <text x="135" y="100" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="34" fill="#1A2B4C" letter-spacing="-1">LEAD</text>
+  <text x="135" y="138" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="34" fill="#1A2B4C" letter-spacing="-1">SELLER</text>
+</svg>
