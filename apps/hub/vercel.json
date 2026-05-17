@@ -1,4 +1,10 @@
 {
+  "installCommand": "npx pnpm@9.15.9 install",
+  "build": {
+    "env": {
+      "ENABLE_EXPERIMENTAL_COREPACK": "1"
+    }
+  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
